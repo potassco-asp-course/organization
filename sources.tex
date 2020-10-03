@@ -1,35 +1,36 @@
 % ----------------------------------------------------------------------
-\begin{frame}[c]{\alt<4->{ASP}{The Potassco} Book\only<2->{ and Guide}}
+\begin{frame}[c]{The\only<4->{ ASP and} Potassco Book\only<4->{,}\only<3->{ and Guide}}
   \bigskip
-  \qquad\small
-  \begin{tabular}[b]{rl}
-    {1.}&{Motivation}\\
-    {2.}&{Introduction}\\
-    {3.}&{Basic modeling}\\
-    {4.}&{Grounding}\\
-    {5.}&{Characterizations}\\
-    {6.}&{Solving}\\
-    {7.}&{Systems}\\
-    {8.}&{Advanced modeling}\\
-    {9.}&{Conclusions}
-  \end{tabular}
-  \hfill
-  \colorbox{white}{\alt<4->{\includegraphics[height=.4\textheight]{organization/pictures/asp-vl.pdf}}%
-                           {\includegraphics[height=.4\textheight]{organization/pictures/book.pdf}}}
-  \only<2->{\colorbox{white}{\includegraphics[height=.4\textheight]{organization/pictures/guide.pdf}}}
-  \hfill\qquad
-  \pause[3]
+  \begin{center}\small
+    \only<1-2>{%
+      \begin{tabular}[b]{rl}
+        {1.}&{Motivation}\\
+        {2.}&{Introduction}\\
+        {3.}&{Basic modeling}\\
+        {4.}&{Grounding}\\
+        {5.}&{Characterizations}\\
+        {6.}&{Solving}\\
+        {7.}&{Systems}\\
+        {8.}&{Advanced modeling}\\
+        {9.}&{Conclusions}
+      \end{tabular}}
+    \only<1-2>{\qquad}
+    \only<4->{                 \includegraphics[height=.4\textheight]{organization/pictures/asp-vl.pdf}}
+    \only<4->{\qquad}
+              \colorbox{white}{\includegraphics[height=.4\textheight]{organization/pictures/book.pdf}}
+    \qquad
+    \only<3->{\colorbox{white}{\includegraphics[height=.4\textheight]{organization/pictures/guide.pdf}}}
+  \end{center}
 
   \bigskip
 
-  \begin{block}{Resources}
-    \vspace{-2ex}
-    \begin{itemize}\itemsep 0pt
+  \begin{block}<2->{Resources}
+    \begin{itemize}
     \item \url{http://potassco.org/book}
     \item \url{http://potassco.org/teaching}
     \end{itemize}
-    \vspace{-2ex}
   \end{block}
+  \medskip
 \end{frame}
 % ----------------------------------------------------------------------
 %
